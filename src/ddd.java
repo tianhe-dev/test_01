@@ -12,8 +12,10 @@ public class ddd {
        char[] ar=str.toCharArray();
 
        for  (i=0; i<str.length(); ++i){
+
              System.out.println(i);
              System.out.println(ar[i]);
+
 
        }
        while (i!=0) {

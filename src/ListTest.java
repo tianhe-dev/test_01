@@ -45,6 +45,7 @@ public class ListTest {
         }
 
         //list中根据索引将元素数值改变(替换)
+
         String a="白龙马", b="沙和尚", c="八戒", d="唐僧", e="悟空";
         List<String> people=new ArrayList<>();
         people.add(a);
@@ -133,6 +134,7 @@ public class ListTest {
         ////将集合转换为指定类型（友好的处理）
         //1.默认类型
         List<Object> listsStrings=new ArrayList<>();
+
         for (int i = 0; i < person.size(); i++) {
             listsStrings.add(person.get(i));
         }

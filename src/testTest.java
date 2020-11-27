@@ -9,12 +9,14 @@ public class testTest {
 
     public int oMethond(){
 
+
         int i=0;
         i++;
         return i;
     }
 
     public String str(){
+
         String str=this.getClass().getName();
         String str1=str.substring(str.lastIndexOf(".")+1,str.length());
         return str1;
