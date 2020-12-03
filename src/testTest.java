@@ -49,25 +49,25 @@ public class testTest {
         testTest t=new testTest();
         System.out.println( "票价=" +t.query(6,60));
 
-//        testTest  t1= new testTest();
-//        t1.oMethond();
-//        int j=t1.oMethond();
-//        System.out.println(j);
-//        Scanner sc = new Scanner(System.in);
-//
-//        int n = sc.nextInt();
-//        int n1 = sc.nextInt();
-//        int n3=n1+n;
-//       System.out.println("和为"+n3);
-//
-//        testTest T1=new testTest();
-//        System.out.println(T1.str());
+        testTest  t1= new testTest();
+        t1.oMethond();
+        int j=t1.oMethond();
+        System.out.println(j);
+        Scanner sc = new Scanner(System.in);
 
-//        int i=10;
-//        String str=String.valueOf(i);
-//        System.out.println(i);
-//        System.out.println(str);
-//        System.out.println(str.getClass());
+        int n = sc.nextInt();
+        int n1 = sc.nextInt();
+        int n3=n1+n;
+       System.out.println("和为"+n3);
+
+        testTest T1=new testTest();
+        System.out.println(T1.str());
+
+        int i=10;
+        String str=String.valueOf(i);
+        System.out.println(i);
+        System.out.println(str);
+        System.out.println(str.getClass());
         int data[] = new int[3]; /*开辟了一个长度为3的数组*/
         int [] data1= null;
         data[0] = 10; // 第一个元素
@@ -80,14 +80,12 @@ public class testTest {
                 {1, 2, 3}, {4, 5}, {6, 7, 8, 9}};
         System.out.println("------: "+data2[0][1]);
         //如果在进行输出的时候一定要使用双重循环，
-        //外部的循环控制输出的行数，而内部的循环控制输出列数
-        for(int i = 0; i < data2.length; i++) {
-            for(int j = 0; j < data2[i].length; j++) {
-                System.out.print("data2[" + i + "][" + j + "]=" + data2[i][j] + "、");
-            }
+//        //外部的循环控制输出的行数，而内部的循环控制输出列数
+//        for(int i = 0; i < data2.length; i++) {
+//            for(int j = 0; j < data2[i].length; j++) {
+//                System.out.print("data2[" + i + "][" + j + "]=" + data2[i][j] + "、");
+//            }
             System.out.println();
         }
 
     }
-
-}
